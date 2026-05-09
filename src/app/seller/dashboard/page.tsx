@@ -4,6 +4,7 @@ import SellerStatsCard from "@/components/seller/SellerStatsCard";
 import InventoryCard from "@/components/seller/InventoryCard";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
+import { cn } from "@/lib/utils";
 
 const SELLER_NAV = [
   { title: "Dashboard", href: "/seller/dashboard", icon: "D" },

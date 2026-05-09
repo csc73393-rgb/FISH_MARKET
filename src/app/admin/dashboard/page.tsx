@@ -3,6 +3,7 @@ import DashboardLayout from "@/components/layouts/DashboardLayout";
 import SellerStatsCard from "@/components/seller/SellerStatsCard";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
+import { cn } from "@/lib/utils";
 
 const ADMIN_NAV = [
   { title: "Dashboard", href: "/admin/dashboard", icon: "D" },
